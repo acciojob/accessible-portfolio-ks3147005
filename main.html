@@ -7,7 +7,30 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	 <h1 role="heading">My Accessible Portfolio</h1>
+
+    <!-- Navigation bar with ARIA role "navigation" -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#home">Home</a></li>
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#portfolio">Portfolio</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Image with ARIA role "img" and alt attribute -->
+    <img src="portfolio-image.jpg" alt="Portfolio Image" role="img">
+
+    <!-- Brief description -->
+    <p>A brief description of my work and skills...</p>
+
+    <!-- List with ARIA role "list" and list items with ARIA role "listitem" -->
+    <ul role="list">
+        <li role="listitem">Project 1</li>
+        <li role="listitem">Project 2</li>
+        <li role="listitem">Project 3</li>
+    </ul>
     <script type="text/javascript" src="./script.js">
 </script>
 
